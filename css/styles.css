@@ -1,0 +1,54 @@
+input, textarea, select, button {
+  width : 150px;
+  margin: 0;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn {
+  width: 300px;
+  border: 15px solid grey;
+  background-color: grey;
+  color: lightgrey;
+  margin: 20px;
+}
+
+.btn:hover {
+  color: orange; 
+}
+
+#container {
+  width: 700px;
+  height: 400px;
+  background-color: black;
+  color: white;
+
+}
+
+#email {
+  width: 70%;
+  padding: 10px;
+  margin: 30px;
+  margin-right: 100px;
+}
+
+label {
+  /*position: absolute;*/
+  padding: 5px;
+  margin: 20px;
+}
+
+input {
+  position: relative;
+  padding: 5px;
+  float: right;
+}
+
+#password {
+  width: 70%;
+  padding: 10px;
+  margin: 30px;
+  margin-right: 100px;
+}
